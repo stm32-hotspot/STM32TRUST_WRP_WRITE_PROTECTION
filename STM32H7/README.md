@@ -6,7 +6,7 @@ Sectors are defined through a #define: OB_WRP_SECTORS
 
 The program checks for pre-programmed flash sectors. If all the sectors are programmed as mentioned in #define OB_WRP_SECTORS, the YELLOW LED is turned ON and program exits.
 
-If not, the program checks for partially pre-programmed sectors, blinks YELLOW LED thrice every 500 ms (left ON thereafter) and programs the remaining sectors per the OB_WRP_SECTORS define. 
+If not, the program checks for partially pre-programmed sectors, blinks YELLOW LED thrice every 200 ms (left ON thereafter) and programs the remaining sectors per the OB_WRP_SECTORS define. 
     If successful, GREEN LED is turned on. 
     If failed, RED LED is turned on and toggles every 100 ms.
 

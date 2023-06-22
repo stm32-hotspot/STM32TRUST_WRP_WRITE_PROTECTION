@@ -33,3 +33,4 @@ The WRP is available on all STM32 devices.
 Although this example has been developed and tested on the following platforms, it can be easily tailored to any other supported device and development boards: 
 
 * NUCLEO-H723GZ
+* NUCLEO-H503RB
